@@ -70,9 +70,32 @@ body {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
  
 /* Header */
+
+.menu {
+    display: flex;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav .item {
+    margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+    margin-right: 50px;
+}
 
 .site-nav .link {
     color: var(--header-text-color);
@@ -93,6 +116,18 @@ body {
     color: var(--accent-color);
 }
 
+.header-connect {
+    margin-left: auto;
+}
+
+.contact-list .item {
+    margin-right: 50px;
+}
+
+.contact-list .item:last-child {
+    margin-right: 50px;
+}
+
 .contact-list {
     color: var(--first-text-color);
     text-decoration: none;
@@ -101,6 +136,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 .contact-list .link:hover,
