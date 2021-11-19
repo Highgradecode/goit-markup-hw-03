@@ -44,6 +44,7 @@ image {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    margin-bottom: 0px;
 }
  
 body {
@@ -186,6 +187,7 @@ body {
    line-height: 1.2;
    text-align: center;
    letter-spacing: 0.03em;
+   margin-bottom: 50px;
 }
  
 /* Features */
@@ -198,7 +200,6 @@ body {
     list-style: none;
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
 }
 
 .features-item {
@@ -230,7 +231,6 @@ body {
 .we-do {
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
 }
 
 .we-do .img {
@@ -240,15 +240,14 @@ body {
 .we-do .img:last-child {
     margin-right: 30px;
 }
-
-.section-title {
-    margin-bottom: 50px;
-}
  
 /* Team */
  
 .section-team {
     background-color: var(--second-background-color);
+    margin-bottom: 0px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
  
 .section-team .team-title {
