@@ -75,6 +75,11 @@ body {
  
 /* Header */
 
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .menu {
     display: flex;
 }
@@ -148,16 +153,23 @@ body {
 /* Hero */
 
 .hero-title {
+    margin-top: 0px;
+    margin-bottom: 30px;
+
     color: var(--main-title-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
     letter-spacing: 0.06em;
 }
  
 .hero {
     background-color: var(--hero-color);
+    text-align: center;
+}
+
+.hero-background {
+    padding-top: 200px;
 }
 
 /* Sections */
@@ -193,6 +205,10 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+
+/* What we do */
+
+
  
 /* Team */
  
@@ -275,6 +291,14 @@ button:hover {
     display: inline-block;
     font-size: 16px;
     pointer-events: none;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 4px;
 }
 
 /* Footer */
