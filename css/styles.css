@@ -105,7 +105,7 @@ body {
 }
 
 .site-nav .item:last-child {
-    margin-right: 50px;
+    margin-right: 0px;
 }
 
 .site-nav .link {
@@ -195,7 +195,19 @@ body {
 }
  
 .feature-list {
-    list-style: none
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.features-item {
+    margin-right: 30px;
+    border-width: 270px;                     
+}
+
+.features-item:last-child {
+    margin-right: 0px;
 }
  
 .feature-list .title {
@@ -204,6 +216,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .feature-list .about {
@@ -214,7 +227,23 @@ body {
 
 /* What we do */
 
+.we-do {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
 
+.we-do .img {
+    margin-right: 30px;
+}
+
+.we-do .img:last-child {
+    margin-right: 30px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
  
 /* Team */
  
