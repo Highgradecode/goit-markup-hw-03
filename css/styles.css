@@ -299,13 +299,17 @@ body {
     margin-bottom: 50px;
 }
 
-.projects-item {
+.projects-bttn{
     margin-right: 8px;
 }
 
-.projects-item:last-child {
+.projects-bttn:last-child {
     margin-right: 0px;
 }
+
+/* CARD SET */
+
+
 
 /* Buttons */
 
