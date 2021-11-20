@@ -368,6 +368,8 @@ button:hover {
  
 .footer {
     background-color: var(--footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
  
 .footer-logo-word1 {
@@ -390,6 +392,7 @@ button:hover {
 
 .footer-list {
     list-style: none;
+    margin-top: 20px;
 }
 
 .footer-list1 {
