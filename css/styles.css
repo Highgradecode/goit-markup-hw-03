@@ -13,6 +13,7 @@
     --second-button-color: #212121;
     --header-text-color: #212121;
     --accent-color: #2196F3;
+    --card-set-color: #EEEEEE;
 }
 
 p, 
@@ -283,12 +284,17 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    padding-left: 20px;
 }
 
 .section-projects .about-examples {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .section-projects .projects-list {
@@ -309,7 +315,19 @@ body {
 
 /* CARD SET */
 
+.about {
+    outline: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+}
 
+.about > .about-item {
+    outline: 1px solid var(--card-set-color);
+    margin-left: 30px;
+    margin-top: 30px;
+}
 
 /* Buttons */
 
