@@ -258,6 +258,8 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .section-team .occupation{
@@ -265,8 +267,30 @@ body {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 30px;
 }
  
+/* TEAM CARD SET */
+
+.team-list {
+    outline: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-list > .members {
+    background-color: var(--white-color);
+    border-radius: 0px 0px 4px 4px;
+    margin-right: 30px;
+}
+
+.team-list > .members:last-child{
+    margin-right: 0px;
+}
+
+
 /* Projects */
 
 .section-projects {
@@ -299,7 +323,6 @@ body {
 
 .section-projects .projects-list {
     display: flex;
-    align-items: center;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
